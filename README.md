@@ -3,10 +3,9 @@
 <p align='center'>
 <img src='images/comercio-online.jpg' height=600 width=1080>
 </p>
-<br></br>
 
 ## O objetivo deste projeto é realizar um teste A/B para avaliar se o formulário de preenchimento automático desenvolvido pelo Head de Design e seu time é melhor do que o formulário atual de preenchimento manual.
-<br></br>
+
 
 # 1. Problema de Negócio.
 
@@ -25,7 +24,7 @@ O time de design não possui as habilidades necessárias para avaliar os dados e
 Questão de Negócio a ser respondida:
 
     1. Qual a melhor forma de pagamento: preenchimento manual ou automático?
-<br></br>
+
 
 # 2. Premissas.
 
@@ -77,7 +76,7 @@ No design de experimento definimos que o iríamos conduzir o teste para cada pa�
 ## App
 
 <img src='images/app.png'>
-<br></br>
+
 
 # 5. Conclusão
 
