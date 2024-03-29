@@ -58,12 +58,12 @@ Minha estratégia para resolver este problema foi a seguinte:
 
 **Step 04. Teste de Hipótese:** Definir e realizar do teste adequado de acordo com os dados que temos. Cálculo do valor p e decisão de rejeitar ou aceitar a hipótese nula.
 
-**Step 0.5 Resultados/Conclusão:** Apresentar resultados ao time de design, respondendo a questão de negócio.
+**Step 0.5 Resultados/Conclusão:** Apresentar resultados ao time de design respondendo a questão de negócio.
 <br></br>
 
 # 4. Resultados
 
-No design de experimento definimos que o iríamos conduzir o teste para cada país por tipo de dispotivo utilizado para acessar a página. A seguinte hipótese seria testada para cada caso:
+No design de experimento definimos que iríamos conduzir o teste para cada país por tipo de dispotivo utilizado para acessar a página. A seguinte hipótese seria testada para cada caso:
 
 **Hipótese Nula:** O preenchimento automático e o preenchimento manual possuem médias de gastos iguais.
 
@@ -95,14 +95,14 @@ Possíveis cenários:
 
 Para garantirmos que o teste seja confiável temos que tomar cuidado com alguns pontos:
 
-- Poder estatístico -> devemos verificar se o poder estatístico de nesso experimento é suficiente para detectarmos o efeito encontrado (amostra insuficiente).
+- Poder estatístico -> devemos verificar se o poder estatístico de nosso experimento é suficiente para detectarmos o efeito encontrado (amostra insuficiente).
 - Interpretação do valor p -> o valor p é probabilidade de obtermos um resultado igual ou maior do que o observado, assumindo que a hpótese nula seja verdadeira.
 - Incompatibilidade de proporção entre amostras. Se a proporção entre as amostras for diferente do que foi definido no planejamento do experimento pode ser indicativo de algum problema.
 - Segmento -> o comportamento dos usuários pode ser muito diferente dependendo de seu país, dispositivo utilizado, etc. Por isso é interessante analisarmos a métrica de interesse por segmentos.
 
 Outro ponto importante é definir a métrica apropriada para o nosso experimento. As métricas para um experimento devem seguir alguns requisitos:
 
-- Mensuráveis -> devem ser fáceis de serem medidas.
+- Mensurável -> devem ser fáceis de serem medidas.
 - Atribuível -> Devemos ser capazes de atribuir valores para a métrica do grupo variante (tratamento).
 - Sensível -> A métrica deve ser sensível o suficiente para detectarmos algum efeito.
 
